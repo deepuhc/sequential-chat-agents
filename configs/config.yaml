@@ -1,0 +1,12 @@
+# Configuration file for sequential-chat-agents
+# Defines chat messages and summary prompts
+chats:
+  user_info:
+    message: "Hello! I'm here to recommend movies and songs for you. Could you tell me your name, location, and a brief introduction about yourself?"
+    summary_prompt: "Summarize the user's name, location, and introduction in a sentence."
+  preferences:
+    message: "Great! What are your favorite movie genres and music preferences (e.g., genres, artists)?"
+    summary_prompt: "Summarize the user's movie and music preferences in a sentence."
+  recommendation:
+    message: "Let's find some great movies and songs for you!"
+    summary_prompt: "Summarize the recommended movies and songs with reasons in a few sentences."
