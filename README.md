@@ -65,20 +65,6 @@ Recommended: 'Inception' (action-packed thriller), 'Mad Max: Fury Road' (high-en
 Run tests:
 python -m unittest tests/test_recommender.py -v
 
-Project Structure
-sequential-chat-agents/
-├── src/
-│   ├── agents.py         # Agent definitions
-│   ├── recommender.py    # Sequential chat logic
-│   └── utils.py          # Utility functions
-├── tests/
-│   └── test_recommender.py  # Unit tests
-├── configs/
-│   └── config.yaml       # Chat configurations
-├── requirements.txt      # Dependencies
-├── .gitignore            # Git ignore rules
-├── LICENSE               # MIT License
-├── README.md             # This file
 
 Configuration
 Customize chat messages in configs/config.yaml:
